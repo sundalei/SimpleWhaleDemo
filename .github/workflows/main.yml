@@ -12,7 +12,7 @@ jobs:
     steps:
 
       - name: Show Repo name
-        run: echo ${ GITHUB_WORKSPACE }
+        run: echo $GITHUB_WORKSPACE
 
 
       - name: Check Out Repo 
