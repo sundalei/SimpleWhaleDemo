@@ -11,6 +11,10 @@ jobs:
 
     steps:
 
+      - name: Show Repo name
+        run: echo ${{ GITHUB_WORKSPACE }}
+
+
       - name: Check Out Repo 
         uses: actions/checkout@v2
 
