@@ -1,1 +1,1 @@
-test test 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
+GitHub Actions Demo with DockerHub and GitHub Registry.
